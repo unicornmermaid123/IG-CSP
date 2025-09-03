@@ -1,4 +1,4 @@
 # IG 6th Variables Practice 
-name = isabella german
+name = "isabella german"
 print(name)
 
