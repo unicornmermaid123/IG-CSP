@@ -1,0 +1,38 @@
+# IG 6th Expressions note
+
+# What is an algorithm?	
+    # is a set of indtructions to acomplish a task
+name = input("what is your name")
+print("hello", name)
+
+# 
+length = 5
+width = 20
+area = length * width 
+print(length, "+", width, "=", area)
+
+#algorithm for area
+# List steps in an algorithm
+    #1 pieces of info needed
+    #2 process info
+    #3 provide output
+
+Age_one = 42
+Age_two = 15
+Age_three = 2
+Age_four = 7
+Total = Age_one + Age_two + Age_three + Age_four
+Average = Total/4
+print("the average age between:", Age_one, "_", Age_two, "_", Age_three, "_", Age_four, "=", Average)
+
+#Math equations
+num_one = 5
+num_two = 4
+print("addition",num_one + num_two)
+print("subtract", num_one - num_two)
+print("multiplication", num_one * num_two)
+print("division", num_one / num_two)
+print("exponets", num_one ** num_two)
+print("integer division", num_one // num_two)
+print("modulo(remainder):", num_one % num_two)
+
