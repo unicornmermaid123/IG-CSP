@@ -26,8 +26,9 @@ Average = Total/4
 print("the average age between:", Age_one, "_", Age_two, "_", Age_three, "_", Age_four, "=", Average)
 
 #Math equations
-num_one = 5
-num_two = 4
+num_one =float(input("give me a number:\n"))
+num_two = int(input("give me a number:\n"))
+num_one = num_one + num_two
 print("addition",num_one + num_two)
 print("subtract", num_one - num_two)
 print("multiplication", num_one * num_two)
@@ -35,4 +36,19 @@ print("division", num_one / num_two)
 print("exponets", num_one ** num_two)
 print("integer division", num_one // num_two)
 print("modulo(remainder):", num_one % num_two)
+
+# List ALL of the different mathematical operators (Give me the symbol and tell me what it does)
+# (/) divide
+# (*) multiply
+# (+) add
+# (-) subtract
+# (**) Exponets
+# (//) integer divsion
+# (%) modulo(remainder)
+
+# Why are expressions so important in programming?
+# cuase everything is math
+# if you set it up once you never have to do it again
+
+
 
