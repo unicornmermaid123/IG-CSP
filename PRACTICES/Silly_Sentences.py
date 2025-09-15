@@ -1,4 +1,5 @@
 # IG 6th Silly Sentences
+name1 = input("what is your name")
 name = input(" give me a name")
 print("thank you")
 food = input("give me a food")
