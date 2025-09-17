@@ -1,16 +1,15 @@
 # IG 6th hello world update
 
-def welcome(info):
-    info.string().lower
+def say_hello(name):
+    print(f"Hello, {name}!")
 
-name = input("what is your name:\n")
-print(f"your name is", (welcome(name)))
+# Function calls with different names
+say_hello("Alice")
+say_hello("Bob")
+say_hello("Carlos")
+say_hello("Danielle")
+say_hello("Eli")
 
-welcome()
-welcome()
-welcome()
-welcome()
-welcome()
 
 
 
