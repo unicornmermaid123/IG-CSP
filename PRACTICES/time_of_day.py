@@ -1,12 +1,12 @@
 # IG 6th time of day
 
-time = int(input("what is the time?: "))
+time = int(input("what is the military time 0-23: "))
 
-if time <= 0: 
+if time <= 12: 
     print("Good Morning")
 
-elif time <= 12: 
+elif time <= 18: 
     print("Good Afternoon")   
 
-elif time <= 21:
+else:
     print("Good Night")    
