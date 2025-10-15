@@ -8,7 +8,7 @@ int main() {
     printf("Please enter your name: ");
     scanf("%s", &name);  
 
-    printf("Hello, %s! Welcome to your first C program.\n", namee);
+    printf("Hello, %s! Welcome to your first C program.\n", name);
 
     return 0;
 }
