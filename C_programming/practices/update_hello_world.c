@@ -1,13 +1,17 @@
 //IG 6th update hello world
 
 #include <stdio.h>
-int main(void){
-    printf("juliette");
-    printf("jovie");
-    printf("charlie");
-    printf("isabella");
-    printf("sophie");
 
+int main(char name[]){
+    printf("Hello%s!\n", name);
+}
+
+int main() {
+    sayHello("isabella");
+    sayHello("juliettte");
+    sayHello("jovie");
+    sayHello("charlie");
+    sayHello("sophie");
 
     return 0;
 }
